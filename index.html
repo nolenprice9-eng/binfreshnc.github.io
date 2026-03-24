@@ -10,8 +10,27 @@
       font-family: Arial, sans-serif;
       background: #f4f7f6;
       color: #333;
+      line-height: 1.6;
     }
 
+    /* NAVBAR */
+    .nav {
+      position: sticky;
+      top: 0;
+      background: #009624;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+
+    /* HERO */
     header {
       background: linear-gradient(135deg, #00c853, #009624);
       color: white;
@@ -35,7 +54,6 @@
       border-radius: 30px;
       font-weight: bold;
       text-decoration: none;
-      transition: 0.3s;
     }
 
     .btn-primary {
@@ -43,117 +61,16 @@
       color: #009624;
     }
 
-    .btn-primary:hover {
-      background: #e0f2f1;
-    }
-
     .btn-secondary {
       background: #333;
       color: white;
     }
 
-    .btn-secondary:hover {
-      background: #555;
-    }
-
+    /* SECTIONS */
     section {
       max-width: 900px;
       margin: auto;
       padding: 40px 20px;
     }
 
-    .card {
-      background: white;
-      padding: 25px;
-      margin: 20px 0;
-      border-radius: 12px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-      transition: transform 0.2s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    .highlight {
-      font-size: 28px;
-      font-weight: bold;
-      color: #009624;
-    }
-
-    .steps li {
-      margin-bottom: 10px;
-    }
-
-    .cta-section {
-      background: #009624;
-      color: white;
-      text-align: center;
-      padding: 50px 20px;
-    }
-
-    .cta-section a {
-      color: white;
-      text-decoration: none;
-      font-size: 20px;
-      font-weight: bold;
-    }
-  </style>
-</head>
-
-<body>
-
-<header>
-  <h1>Stop Smelly Trash Cans for Good</h1>
-  <p>Bin Cleaning in Weddington, NC – Only $15 per bin</p>
-
-  <a href="#contact" class="btn btn-primary">Get Your Bins Clean</a>
-  <a href="tel:1234567890" class="btn btn-secondary">Call Now</a>
-</header>
-
-<section>
-
-  <div class="card">
-    <h2>Why Your Trash Can Smells</h2>
-    <p>Heat + bacteria + leftover waste = terrible smell and pests like flies and maggots.</p>
-  </div>
-
-  <div class="card">
-    <h2>Our Solution</h2>
-    <p>We use high-pressure cleaning, sanitizing, and deodorizing to leave your bins fresh and safe.</p>
-  </div>
-
-  <div class="card">
-    <h2>✔ What You Get</h2>
-    <ul>
-      <li>No smell</li>
-      <li>No bacteria</li>
-      <li>No pests</li>
-      <li>Fast and easy service</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>Simple Pricing</h2>
-    <p class="highlight">$15 per bin</p>
-  </div>
-
-  <div class="card">
-    <h2>How It Works</h2>
-    <ol class="steps">
-      <li>You schedule</li>
-      <li>We clean after trash day</li>
-      <li>You enjoy fresh bins</li>
-    </ol>
-  </div>
-
-</section>
-
-<div class="cta-section" id="contact">
-  <h2>Ready for Fresh Bins?</h2>
-  <p>Call or text now to be scheduled:</p>
-  <a href="tel:1234567890">(123) 456-7890</a>
-</div>
-
-</body>
-</html>
+   
