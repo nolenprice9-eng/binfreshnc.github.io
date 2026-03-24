@@ -3,6 +3,7 @@
 <head>
   <title>Bin Fresh | Trash Can Cleaning Weddington NC</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
@@ -12,32 +13,53 @@
     }
 
     header {
-      background: linear-gradient(135deg, #2ecc71, #27ae60);
+      background: linear-gradient(135deg, #00c853, #009624);
       color: white;
       text-align: center;
-      padding: 60px 20px;
+      padding: 80px 20px;
     }
 
-    h1 {
+    header h1 {
+      font-size: 40px;
       margin-bottom: 10px;
-      font-size: 36px;
     }
 
-    .cta-btn {
-      background: white;
-      color: #27ae60;
+    header p {
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
       padding: 15px 25px;
       border-radius: 30px;
-      text-decoration: none;
       font-weight: bold;
-      display: inline-block;
-      margin-top: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background: white;
+      color: #009624;
+    }
+
+    .btn-primary:hover {
+      background: #e0f2f1;
+    }
+
+    .btn-secondary {
+      background: #333;
+      color: white;
+    }
+
+    .btn-secondary:hover {
+      background: #555;
     }
 
     section {
-      padding: 40px 20px;
       max-width: 900px;
       margin: auto;
+      padding: 40px 20px;
     }
 
     .card {
@@ -46,26 +68,35 @@
       margin: 20px 0;
       border-radius: 12px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
     }
 
-    .price {
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .highlight {
       font-size: 28px;
       font-weight: bold;
-      color: #27ae60;
+      color: #009624;
     }
 
-    .contact {
+    .steps li {
+      margin-bottom: 10px;
+    }
+
+    .cta-section {
+      background: #009624;
+      color: white;
       text-align: center;
-      background: #27ae60;
-      color: white;
-      padding: 40px 20px;
+      padding: 50px 20px;
     }
 
-    .contact a {
+    .cta-section a {
       color: white;
-      font-weight: bold;
       text-decoration: none;
       font-size: 20px;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -74,21 +105,22 @@
 
 <header>
   <h1>Stop Smelly Trash Cans for Good</h1>
-  <p>Professional Bin Cleaning in Weddington, NC</p>
-  <p class="price">$15 per bin</p>
-  <a href="#contact" class="cta-btn">Get Your Bins Clean Today</a>
+  <p>Bin Cleaning in Weddington, NC – Only $15 per bin</p>
+
+  <a href="#contact" class="btn btn-primary">Get Your Bins Clean</a>
+  <a href="tel:1234567890" class="btn btn-secondary">Call Now</a>
 </header>
 
 <section>
 
   <div class="card">
     <h2>Why Your Trash Can Smells</h2>
-    <p>Bacteria, heat, and leftover waste create strong odors and attract pests like flies and maggots.</p>
+    <p>Heat + bacteria + leftover waste = terrible smell and pests like flies and maggots.</p>
   </div>
 
   <div class="card">
     <h2>Our Solution</h2>
-    <p>We use high-pressure washing, sanitizing, and deodorizing to leave your bins fresh and clean.</p>
+    <p>We use high-pressure cleaning, sanitizing, and deodorizing to leave your bins fresh and safe.</p>
   </div>
 
   <div class="card">
@@ -97,23 +129,28 @@
       <li>No smell</li>
       <li>No bacteria</li>
       <li>No pests</li>
-      <li>Fast, easy service</li>
+      <li>Fast and easy service</li>
     </ul>
   </div>
 
   <div class="card">
+    <h2>Simple Pricing</h2>
+    <p class="highlight">$15 per bin</p>
+  </div>
+
+  <div class="card">
     <h2>How It Works</h2>
-    <ol>
+    <ol class="steps">
       <li>You schedule</li>
-      <li>We clean Monday-Friday</li>
+      <li>We clean after trash day</li>
       <li>You enjoy fresh bins</li>
     </ol>
   </div>
 
 </section>
 
-<div class="contact" id="contact">
-  <h2>Get Your Bins Clean Today</h2>
+<div class="cta-section" id="contact">
+  <h2>Ready for Fresh Bins?</h2>
   <p>Call or text now to be scheduled:</p>
   <a href="tel:1234567890">(123) 456-7890</a>
 </div>
