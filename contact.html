@@ -1,26 +1,132 @@
-<div class="card">
-  <h1>Contact Us</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Bin Fresh</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <p>We're a small group of local kids working hard to keep our community clean.</p>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7f6;
+    }
 
-  <h2>Antioch Woods & Falls at Weddington</h2>
+    .nav {
+      background: #009624;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+    }
 
-  <a href="sms:9803972810" class="btn btn2">
-    Text 980-397-2810
-  </a>
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 16px;
+    }
 
-  <h2 style="margin-top:30px;">Lake Providence</h2>
+    section {
+      max-width: 700px;
+      margin: auto;
+      padding: 40px 20px;
+    }
 
-  <a href="sms:7046686464" class="btn btn2">
-    Text 704-668-6464
-  </a>
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+      text-align: center;
+    }
 
-  <p style="margin-top:30px;">
-    <strong>Booking Instructions:</strong><br>
-    If you are texting to book with us, please state your name, address, and the time and day you would like to be booked. Thanks!
-  </p>
+    h1 {
+      color: #009624;
+      margin-top: 0;
+    }
 
-  <p style="margin-top:20px;">
-    We'll respond as fast as we can!
-  </p>
+    h2 {
+      color: #222;
+      margin-top: 35px;
+    }
+
+    .btn {
+      display: block;
+      width: 85%;
+      margin: 15px auto;
+      padding: 15px;
+      background: #009624;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      transform: scale(1.03);
+    }
+
+    .instructions {
+      background: #f4f7f6;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 25px;
+    }
+
+    .footer {
+      margin-top: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="nav">
+  Bin Fresh
+  <a href="index.html">Home</a>
 </div>
+
+<section>
+
+  <div class="card">
+
+    <h1>Contact Us</h1>
+
+    <p>
+      We're a small group of local kids working hard to keep our community clean.
+    </p>
+
+    <h2>Antioch Woods & Falls at Weddington</h2>
+
+    <a href="sms:9803972810" class="btn">
+      Text 980-397-2810
+    </a>
+
+    <h2>Lake Providence</h2>
+
+    <a href="sms:7046686464" class="btn">
+      Text 704-668-6464
+    </a>
+
+    <div class="instructions">
+      <strong>Booking Instructions</strong>
+      <p>
+        If you are texting to book with us, please state your name, address,
+        and the time and day you would like to be booked. Thanks!
+      </p>
+    </div>
+
+    <p class="footer">
+      We'll respond as fast as we can!
+    </p>
+
+  </div>
+
+</section>
+
+</body>
+</html>
